@@ -1,0 +1,53 @@
+#
+# Arquivo com os dados de entrada para o programa dfo_mapreduce. A ordem dos
+# valores eh importante.
+# Iniciar linhas de comentario com #.
+# Nao deixar linhas em branco.
+#
+#
+# A funcao a maximizar eh
+# f = eficiencia = speedup / nro de nos = Tseq / Tpar / nro. de nos.
+#
+# (14) variaveis do problema. Todas podem, se desejado, ser especificadas com
+# notacao cientifica (mesmo as marcadas como int).
+#
+# cenario de plataforma fixa, e parametros do MapReduce variaveis
+#
+# valor_inicial  lower_bound  upper_bound
+200	100	1600	0 - mapred.child.java.opts em MB (int). Valor maximo 80% RAM.
+100	80	1120	1 - io.sort.mb em MB (int). Valor maximo 70% mapred.child.java.opts.
+10	8	200	2 - io.sort.factor. Number of streams to merge while sorting files.
+0.05	0.03	0.15	3 - io.sort.record.percent. The percentage of io.sort.mb dedicated to tracking record boundaries.
+4096	2048	32768	4 - io.file.buffer.size. Buffer size used to read/write (intermediate) sequence files/
+0.7	0.5	0.8	5 - mapred.job.shuffle.input.buffer.percent. % of memory from the maximum heap size to storing map outputs during the shuffle.
+0.66	0.4	0.8	6 - mapred.job.shuffle.merge.percent. The usage threshold at which an in-memory merge will be initiated.
+1000	0	1200	7 - mapred.inmem.merge.threshold. The threshold, in terms of the number of files for the in-memory merge process.
+0	0	0.8	8 - mapred.job.reduce.input.buffer.percent. The percentage of memory to retain map outputs during the reduce.
+#
+#
+# restricoes c_l <= fc_i(x) <= c_u
+#
+# 1-	io.sort.mb * 100 / mapred.child.java.opts <= 65 
+# 2- 	io.sort.factor * 100 /  of io.sort.mb <= 70
+#
+#	c_l
+	65
+	70
+#
+#
+# Valor de parada da funcao objetivo, que para a otimizacao quando
+# f(x) >= stopval (desde que as restricoes nao sejam violadas)
+#
+0    stopval                10 seconds
+#
+#
+# Valor de tolerancia para as restricoes: a otimizacao para quando
+# fc_i(x) - c_u <= tol   ou   -fc_i(x) + c_l <= tol
+#
+# Eh recomendavel usar um valor positivo pequeno.
+1E-8    tol
+#
+#
+# Quantidade maxima (int) de avaliacoes da funcao. Criterio desativado se <= 0.
+#
+32	maxeval

@@ -1,0 +1,89 @@
+{
+    "id": "properties",
+    "core": [
+        {
+            "name": "fs.default.name",
+            "value": "hdfs://node-10:54310",
+            "description": ""
+        }
+    ],
+    "hdfs": [
+        {
+            "name": "dfs.replication",
+            "value": "1",
+            "description": ""
+        },
+        {
+            "name": "dfs.name.dir",
+            "value": "/disk-1/nn",
+            "description": ""
+        },
+        {
+            "name": "dfs.data.dir",
+            "value": "/disk-2/dn",
+            "description": ""
+        }
+    ],
+    "mapred": [
+        {
+            "name": "mapred.job.tracker",
+            "value": "node-10:54311",
+            "description": ""
+        },
+        {
+            "name": "mapred.local.dir",
+            "value": "/mnt/mapred/jt",
+            "description": ""
+        },
+        {
+            "name": "mapred.map.tasks",
+            "value": "56",
+            "description": ""
+        },
+        {
+            "name": "mapred.child.java.opts",
+            "value": "-Xmx200m",
+            "description": ""
+        },
+        {
+            "name": "io.sort.mb",
+            "value": "100",
+            "description": ""
+        },
+        {
+            "name": "io.sort.factor",
+            "value": "10",
+            "description": ""
+        },
+        {
+            "name": "io.sort.record.percent",
+            "value": "0.05",
+            "description": ""
+        },
+        {
+            "name": "io.file.buffer.size",
+            "value": "4080",
+            "description": ""
+        },
+        {
+            "name": "mapred.job.shuffle.input.buffer.percent",
+            "value": "0.78",
+            "description": ""
+        },
+        {
+            "name": "mapred.job.shuffle.merge.percent",
+            "value": "0.66",
+            "description": ""
+        },
+        {
+            "name": "mapred.inmem.merge.threshold",
+            "value": "997",
+            "description": ""
+        },
+        {
+            "name": "mapred.job.reduce.input.buffer.percent",
+            "value": "0.00",
+            "description": ""
+        }
+    ]
+}

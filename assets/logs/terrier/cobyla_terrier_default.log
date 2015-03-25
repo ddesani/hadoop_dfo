@@ -1,0 +1,301 @@
+Setting TERRIER_HOME to /mnt/terrier-3.5
+INFO - Term-partitioned Mode, 26 reducers creating one inverted index.
+INFO - Copying terrier share/ directory (/mnt/terrier-3.5/share) to shared storage area (hdfs://node-10:54310/tmp/513710776-terrier.share)
+INFO - Copying classpath to job
+WARN - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+WARN - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+INFO - Allocating 50 files across 50 map tasks
+INFO - Running job: job_201308292321_0001
+INFO -  map 0% reduce 0%
+INFO -  map 1% reduce 0%
+INFO -  map 2% reduce 0%
+INFO -  map 3% reduce 0%
+INFO -  map 4% reduce 0%
+INFO -  map 5% reduce 0%
+INFO -  map 6% reduce 0%
+INFO -  map 7% reduce 0%
+INFO -  map 8% reduce 0%
+INFO -  map 9% reduce 0%
+INFO -  map 10% reduce 0%
+INFO -  map 11% reduce 0%
+INFO -  map 12% reduce 0%
+INFO -  map 13% reduce 0%
+INFO -  map 14% reduce 0%
+INFO -  map 15% reduce 0%
+INFO -  map 16% reduce 0%
+INFO -  map 17% reduce 0%
+INFO -  map 18% reduce 0%
+INFO -  map 19% reduce 0%
+INFO -  map 20% reduce 0%
+INFO -  map 21% reduce 0%
+INFO -  map 22% reduce 0%
+INFO -  map 23% reduce 0%
+INFO -  map 24% reduce 0%
+INFO -  map 25% reduce 0%
+INFO -  map 26% reduce 0%
+INFO -  map 27% reduce 0%
+INFO -  map 28% reduce 0%
+INFO -  map 29% reduce 0%
+INFO -  map 30% reduce 0%
+INFO -  map 31% reduce 0%
+INFO -  map 32% reduce 0%
+INFO -  map 33% reduce 0%
+INFO -  map 34% reduce 0%
+INFO -  map 35% reduce 0%
+INFO -  map 36% reduce 0%
+INFO -  map 37% reduce 0%
+INFO -  map 38% reduce 0%
+INFO -  map 39% reduce 0%
+INFO -  map 40% reduce 0%
+INFO -  map 41% reduce 0%
+INFO -  map 42% reduce 0%
+INFO -  map 43% reduce 0%
+INFO -  map 44% reduce 0%
+INFO -  map 45% reduce 0%
+INFO -  map 46% reduce 0%
+INFO -  map 47% reduce 0%
+INFO -  map 48% reduce 0%
+INFO -  map 49% reduce 0%
+INFO -  map 50% reduce 0%
+INFO -  map 51% reduce 0%
+INFO -  map 52% reduce 0%
+INFO -  map 53% reduce 0%
+INFO -  map 54% reduce 0%
+INFO -  map 55% reduce 0%
+INFO -  map 56% reduce 0%
+INFO -  map 57% reduce 0%
+INFO -  map 58% reduce 0%
+INFO -  map 59% reduce 0%
+INFO -  map 60% reduce 0%
+INFO -  map 61% reduce 0%
+INFO -  map 62% reduce 0%
+INFO -  map 63% reduce 0%
+INFO -  map 64% reduce 0%
+INFO -  map 65% reduce 0%
+INFO -  map 66% reduce 0%
+INFO -  map 67% reduce 0%
+INFO -  map 68% reduce 0%
+INFO -  map 69% reduce 0%
+INFO -  map 70% reduce 0%
+INFO -  map 71% reduce 0%
+INFO -  map 72% reduce 0%
+INFO -  map 73% reduce 0%
+INFO -  map 74% reduce 0%
+INFO -  map 75% reduce 0%
+INFO -  map 76% reduce 0%
+INFO -  map 77% reduce 0%
+INFO -  map 78% reduce 0%
+INFO -  map 79% reduce 0%
+INFO -  map 80% reduce 0%
+INFO -  map 81% reduce 0%
+INFO -  map 82% reduce 0%
+INFO -  map 83% reduce 0%
+INFO -  map 84% reduce 0%
+INFO -  map 85% reduce 0%
+INFO -  map 86% reduce 0%
+INFO -  map 87% reduce 0%
+INFO -  map 88% reduce 0%
+INFO -  map 89% reduce 0%
+INFO -  map 90% reduce 0%
+INFO -  map 91% reduce 0%
+INFO -  map 92% reduce 0%
+INFO -  map 93% reduce 0%
+INFO -  map 94% reduce 0%
+INFO -  map 95% reduce 0%
+INFO -  map 96% reduce 0%
+INFO -  map 97% reduce 0%
+INFO -  map 98% reduce 0%
+INFO -  map 99% reduce 0%
+INFO -  map 100% reduce 0%
+INFO -  map 100% reduce 1%
+INFO -  map 100% reduce 3%
+INFO -  map 100% reduce 4%
+INFO -  map 100% reduce 5%
+INFO -  map 100% reduce 6%
+INFO -  map 100% reduce 7%
+INFO -  map 100% reduce 8%
+INFO -  map 100% reduce 9%
+INFO -  map 100% reduce 10%
+INFO -  map 100% reduce 11%
+INFO -  map 100% reduce 12%
+INFO -  map 100% reduce 13%
+INFO -  map 100% reduce 14%
+INFO -  map 100% reduce 15%
+INFO -  map 100% reduce 16%
+INFO -  map 100% reduce 17%
+INFO -  map 100% reduce 18%
+INFO -  map 100% reduce 19%
+INFO -  map 100% reduce 20%
+INFO -  map 100% reduce 21%
+INFO -  map 100% reduce 23%
+INFO -  map 100% reduce 24%
+INFO -  map 100% reduce 26%
+INFO -  map 100% reduce 28%
+INFO -  map 100% reduce 29%
+INFO -  map 100% reduce 30%
+INFO -  map 100% reduce 32%
+INFO -  map 100% reduce 33%
+INFO -  map 100% reduce 34%
+INFO -  map 100% reduce 35%
+INFO -  map 100% reduce 36%
+INFO -  map 100% reduce 37%
+INFO -  map 100% reduce 38%
+INFO -  map 100% reduce 39%
+INFO -  map 100% reduce 41%
+INFO -  map 100% reduce 42%
+INFO -  map 100% reduce 43%
+INFO -  map 100% reduce 45%
+INFO -  map 100% reduce 46%
+INFO -  map 100% reduce 47%
+INFO -  map 100% reduce 48%
+INFO -  map 100% reduce 49%
+INFO -  map 100% reduce 50%
+INFO -  map 100% reduce 51%
+INFO -  map 100% reduce 52%
+INFO -  map 100% reduce 53%
+INFO -  map 100% reduce 55%
+INFO -  map 100% reduce 56%
+INFO -  map 100% reduce 58%
+INFO -  map 100% reduce 59%
+INFO -  map 100% reduce 60%
+INFO -  map 100% reduce 61%
+INFO -  map 100% reduce 62%
+INFO -  map 100% reduce 63%
+INFO -  map 100% reduce 65%
+INFO -  map 100% reduce 68%
+INFO -  map 100% reduce 69%
+INFO -  map 100% reduce 70%
+INFO -  map 100% reduce 71%
+INFO -  map 100% reduce 72%
+INFO -  map 100% reduce 74%
+INFO -  map 100% reduce 75%
+INFO -  map 100% reduce 77%
+INFO -  map 100% reduce 78%
+INFO -  map 100% reduce 79%
+INFO -  map 100% reduce 80%
+INFO -  map 100% reduce 81%
+INFO -  map 100% reduce 82%
+INFO -  map 100% reduce 84%
+INFO -  map 100% reduce 85%
+INFO -  map 100% reduce 86%
+INFO -  map 100% reduce 87%
+INFO -  map 100% reduce 88%
+INFO -  map 100% reduce 89%
+INFO -  map 100% reduce 90%
+INFO -  map 100% reduce 91%
+INFO -  map 100% reduce 92%
+INFO -  map 100% reduce 93%
+INFO -  map 100% reduce 95%
+INFO -  map 100% reduce 97%
+INFO -  map 100% reduce 98%
+INFO -  map 100% reduce 99%
+INFO -  map 100% reduce 100%
+INFO - Job complete: job_201308292321_0001
+INFO - Counters: 35
+INFO -   Job Counters 
+INFO -     Launched reduce tasks=26
+INFO -     SLOTS_MILLIS_MAPS=30471814
+INFO -     Total time spent by all reduces waiting after reserving slots (ms)=0
+INFO -     Total time spent by all maps waiting after reserving slots (ms)=0
+INFO -     Rack-local map tasks=9
+INFO -     Launched map tasks=50
+INFO -     Data-local map tasks=41
+INFO -     SLOTS_MILLIS_REDUCES=7863298
+INFO -   File Input Format Counters 
+INFO -     Bytes Read=0
+INFO -   File Output Format Counters 
+INFO -     Bytes Written=0
+INFO -   FileSystemCounters
+INFO -     FILE_BYTES_READ=6272048707
+INFO -     HDFS_BYTES_READ=9929868100
+INFO -     FILE_BYTES_WRITTEN=8601187324
+INFO -     HDFS_BYTES_WRITTEN=1084519571
+INFO -   org.terrier.indexing.hadoop.Hadoop_BasicSinglePassIndexer$Counters
+INFO -     INDEXED_POINTERS=536380909
+INFO -     INDEXED_TOKENS=1165761381
+INFO -     INDEXED_DOCUMENTS=1206899
+INFO -     INDEXER_FLUSHES=60370
+INFO -   Map-Reduce Framework
+INFO -     Map output materialized bytes=2372418096
+INFO -     Map input records=1206899
+INFO -     Reduce shuffle bytes=2343108820
+INFO -     Spilled Records=863568541
+INFO -     Map output bytes=15600904732
+INFO -     Total committed heap usage (bytes)=15279194112
+INFO -     CPU time spent (ms)=37733200
+INFO -     Map input bytes=410528793
+INFO -     SPLIT_RAW_BYTES=11350
+INFO -     Combine input records=0
+INFO -     Reduce input records=231280138
+INFO -     Reduce input groups=2638606
+INFO -     Combine output records=0
+INFO -     Physical memory (bytes) snapshot=21409091584
+INFO -     Reduce output records=0
+INFO -     Virtual memory (bytes) snapshot=53352906752
+INFO -     Map output records=231280138
+INFO - Optimising structure lexicon
+INFO - Optimsing lexicon with 2638606 entries
+INFO - All ids for structure lexicon are aligned, skipping .fsomapid file
+INFO - Copying terrier share/ directory (/mnt/terrier-3.5/share) to shared storage area (hdfs://node-10:54310/tmp/1374554261-terrier.share)
+INFO - Copying classpath to job
+WARN - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+WARN - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+INFO - Reloading Application Setup
+DEBUG - Block size for hdfs://node-10:54310/user/hadoop/indices/data.meta.zdata is 67108864
+DEBUG - Got split: MetaIndexSplit: BlockSize=67108919 startAt=0 hosts=node-18 ids=[0,764981]
+DEBUG - Got last split: MetaIndexSplit: BlockSize=39411784 startAt=67108920 hosts=node-18 ids=[764982,1206898]
+DEBUG - Got 2 splits when splitting meta index
+INFO - Running job: job_201308292321_0002
+INFO -  map 0% reduce 0%
+INFO -  map 17% reduce 0%
+INFO -  map 51% reduce 0%
+INFO -  map 58% reduce 0%
+INFO -  map 68% reduce 0%
+INFO -  map 71% reduce 0%
+INFO -  map 78% reduce 0%
+INFO -  map 88% reduce 0%
+INFO -  map 90% reduce 0%
+INFO -  map 100% reduce 0%
+INFO -  map 100% reduce 33%
+INFO -  map 100% reduce 67%
+INFO -  map 100% reduce 100%
+INFO - Job complete: job_201308292321_0002
+INFO - Counters: 30
+INFO -   Job Counters 
+INFO -     Launched reduce tasks=1
+INFO -     SLOTS_MILLIS_MAPS=71805
+INFO -     Total time spent by all reduces waiting after reserving slots (ms)=0
+INFO -     Total time spent by all maps waiting after reserving slots (ms)=0
+INFO -     Rack-local map tasks=2
+INFO -     Launched map tasks=2
+INFO -     SLOTS_MILLIS_REDUCES=19074
+INFO -   File Input Format Counters 
+INFO -     Bytes Read=116201313
+INFO -   File Output Format Counters 
+INFO -     Bytes Written=0
+INFO -   FileSystemCounters
+INFO -     FILE_BYTES_READ=96551956
+INFO -     HDFS_BYTES_READ=116208840
+INFO -     FILE_BYTES_WRITTEN=144944557
+INFO -     HDFS_BYTES_WRITTEN=98184103
+INFO -   Map-Reduce Framework
+INFO -     Map output materialized bytes=48275972
+INFO -     Map input records=1206899
+INFO -     Reduce shuffle bytes=48275972
+INFO -     Spilled Records=3620697
+INFO -     Map output bytes=45862162
+INFO -     Total committed heap usage (bytes)=550436864
+INFO -     CPU time spent (ms)=63800
+INFO -     Map input bytes=0
+INFO -     SPLIT_RAW_BYTES=346
+INFO -     Combine input records=0
+INFO -     Reduce input records=1206899
+INFO -     Reduce input groups=1182941
+INFO -     Combine output records=0
+INFO -     Physical memory (bytes) snapshot=667426816
+INFO -     Reduce output records=0
+INFO -     Virtual memory (bytes) snapshot=2169217024
+INFO -     Map output records=1206899
+INFO - Time Taken = 72 seconds
+Time Taken = 1592 seconds
+Time elapsed: 1592.255 seconds.
